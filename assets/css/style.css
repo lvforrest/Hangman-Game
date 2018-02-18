@@ -1,0 +1,6 @@
+.jumbotron{
+margin-top: 20px;
+ background-image: url("https://bsbproduction.s3.amazonaws.com/portals/9843/images/basketball_for_all_s.jpg");
+ background-size: cover; 
+ color: orange;
+}

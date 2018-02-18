@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+</head>
+<body>
+
+    <div class="jumbotron">
+        <div class="contatiner">
+        <h1><center>Basketball Hangman </center></h1>
+        <p><center>Do you know famous basketball players???</center></p>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Word To Guess</h3>
+                <div class="panel-body">
+                  <h2 id="guess">_ _ _ _ _ _ _ _</h2>
+                </div>
+            </div>
+                <div class="panel panel-danger">
+                        <div class="panel-body">
+                         <h2 id="wrong">Wrong Guesses :(</h2>
+                        </div>
+                </div>
+                        <div class="panel panel-warning">
+                                <div class="panel-body">
+                                  <h2 id="left">Remaining Guesses Left :)</h2>
+                                </div>
+                        </div>
+                                <div class="panel panel-success">
+                                        <div class="panel-body">
+                                         <h2 id="win">Win Counter</h2>
+                                        </div>
+                                    </div>      
+            
+                                        <div class="panel panel-danger">
+                                            <div class="panel-body">
+                                            <h2 id="loss">Loss Counter</h2>
+                                            </div>
+                                        </div>
+                              </div>
+                      </div>
+              </div>
+        </div>
+    </div>
+    <!--linking to JS -->
+    <script src="assets/javascript/logic.js"></script>
+</body>
+</html>
